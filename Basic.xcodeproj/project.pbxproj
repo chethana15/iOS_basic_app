@@ -7,6 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C9BED7CF954A922EAE48C43 /* Pods_Basic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3C1D09CD7F853B1F69B21C9 /* Pods_Basic.framework */; };
+		690EAF5329298A74005F3318 /* Sono-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF4C29298A74005F3318 /* Sono-Bold.ttf */; };
+		690EAF5429298A74005F3318 /* Sono-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF4D29298A74005F3318 /* Sono-ExtraBold.ttf */; };
+		690EAF5529298A74005F3318 /* Sono-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF4E29298A74005F3318 /* Sono-Regular.ttf */; };
+		690EAF5629298A74005F3318 /* Sono-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF4F29298A74005F3318 /* Sono-ExtraLight.ttf */; };
+		690EAF5729298A74005F3318 /* Sono-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF5029298A74005F3318 /* Sono-SemiBold.ttf */; };
+		690EAF5829298A74005F3318 /* Sono-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF5129298A74005F3318 /* Sono-Medium.ttf */; };
+		690EAF5929298A74005F3318 /* Sono-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF5229298A74005F3318 /* Sono-Light.ttf */; };
+		690EAF5C29298C36005F3318 /* AppColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF5B29298C36005F3318 /* AppColors.swift */; };
+		690EAF5E29298F98005F3318 /* AppCustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF5D29298F98005F3318 /* AppCustomLabel.swift */; };
+		690EAF6029299577005F3318 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF5F29299577005F3318 /* ViewExtension.swift */; };
+		690EAF6229299D74005F3318 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF6129299D74005F3318 /* GoogleService-Info.plist */; };
+		690EAF64292A125D005F3318 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF63292A125D005F3318 /* HomeScreenViewController.swift */; };
 		69FB85682928ACEF00A9F2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB85672928ACEF00A9F2FF /* AppDelegate.swift */; };
 		69FB856A2928ACEF00A9F2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */; };
 		69FB856C2928ACEF00A9F2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB856B2928ACEF00A9F2FF /* ViewController.swift */; };
@@ -16,6 +29,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		574350963843AD3E25AF524F /* Pods-Basic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic.debug.xcconfig"; path = "Target Support Files/Pods-Basic/Pods-Basic.debug.xcconfig"; sourceTree = "<group>"; };
+		690EAF4C29298A74005F3318 /* Sono-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-Bold.ttf"; sourceTree = "<group>"; };
+		690EAF4D29298A74005F3318 /* Sono-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-ExtraBold.ttf"; sourceTree = "<group>"; };
+		690EAF4E29298A74005F3318 /* Sono-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-Regular.ttf"; sourceTree = "<group>"; };
+		690EAF4F29298A74005F3318 /* Sono-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-ExtraLight.ttf"; sourceTree = "<group>"; };
+		690EAF5029298A74005F3318 /* Sono-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-SemiBold.ttf"; sourceTree = "<group>"; };
+		690EAF5129298A74005F3318 /* Sono-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-Medium.ttf"; sourceTree = "<group>"; };
+		690EAF5229298A74005F3318 /* Sono-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Sono-Light.ttf"; sourceTree = "<group>"; };
+		690EAF5B29298C36005F3318 /* AppColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColors.swift; sourceTree = "<group>"; };
+		690EAF5D29298F98005F3318 /* AppCustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCustomLabel.swift; sourceTree = "<group>"; };
+		690EAF5F29299577005F3318 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		690EAF6129299D74005F3318 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		690EAF63292A125D005F3318 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
 		69FB85642928ACEF00A9F2FF /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FB85672928ACEF00A9F2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +50,8 @@
 		69FB85702928ACF300A9F2FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		69FB85732928ACF300A9F2FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		69FB85752928ACF300A9F2FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D8607DB810F73682FDE7FE9 /* Pods-Basic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Basic.release.xcconfig"; path = "Target Support Files/Pods-Basic/Pods-Basic.release.xcconfig"; sourceTree = "<group>"; };
+		A3C1D09CD7F853B1F69B21C9 /* Pods_Basic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Basic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +59,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C9BED7CF954A922EAE48C43 /* Pods_Basic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		690EAF4B29298A4B005F3318 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				690EAF4C29298A74005F3318 /* Sono-Bold.ttf */,
+				690EAF4D29298A74005F3318 /* Sono-ExtraBold.ttf */,
+				690EAF4F29298A74005F3318 /* Sono-ExtraLight.ttf */,
+				690EAF5229298A74005F3318 /* Sono-Light.ttf */,
+				690EAF5129298A74005F3318 /* Sono-Medium.ttf */,
+				690EAF4E29298A74005F3318 /* Sono-Regular.ttf */,
+				690EAF5029298A74005F3318 /* Sono-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		690EAF5A29298C0A005F3318 /* Extensions_and_additional */ = {
+			isa = PBXGroup;
+			children = (
+				690EAF5B29298C36005F3318 /* AppColors.swift */,
+				690EAF5D29298F98005F3318 /* AppCustomLabel.swift */,
+				690EAF5F29299577005F3318 /* ViewExtension.swift */,
+			);
+			path = Extensions_and_additional;
+			sourceTree = "<group>";
+		};
 		69FB855B2928ACEE00A9F2FF = {
 			isa = PBXGroup;
 			children = (
 				69FB85662928ACEF00A9F2FF /* Basic */,
 				69FB85652928ACEF00A9F2FF /* Products */,
+				D2D7CAE81E7019D28CAFAE79 /* Pods */,
+				C9B617394B7698F3B60D6846 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -59,12 +114,33 @@
 				69FB85672928ACEF00A9F2FF /* AppDelegate.swift */,
 				69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */,
 				69FB856B2928ACEF00A9F2FF /* ViewController.swift */,
+				690EAF63292A125D005F3318 /* HomeScreenViewController.swift */,
 				69FB856D2928ACEF00A9F2FF /* Main.storyboard */,
 				69FB85702928ACF300A9F2FF /* Assets.xcassets */,
 				69FB85722928ACF300A9F2FF /* LaunchScreen.storyboard */,
 				69FB85752928ACF300A9F2FF /* Info.plist */,
+				690EAF6129299D74005F3318 /* GoogleService-Info.plist */,
+				690EAF5A29298C0A005F3318 /* Extensions_and_additional */,
+				690EAF4B29298A4B005F3318 /* Fonts */,
 			);
 			path = Basic;
+			sourceTree = "<group>";
+		};
+		C9B617394B7698F3B60D6846 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3C1D09CD7F853B1F69B21C9 /* Pods_Basic.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D2D7CAE81E7019D28CAFAE79 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				574350963843AD3E25AF524F /* Pods-Basic.debug.xcconfig */,
+				6D8607DB810F73682FDE7FE9 /* Pods-Basic.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +150,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 69FB85782928ACF300A9F2FF /* Build configuration list for PBXNativeTarget "Basic" */;
 			buildPhases = (
+				9FCA11B7A4191D77A19C98B0 /* [CP] Check Pods Manifest.lock */,
 				69FB85602928ACEE00A9F2FF /* Sources */,
 				69FB85612928ACEE00A9F2FF /* Frameworks */,
 				69FB85622928ACEE00A9F2FF /* Resources */,
+				E7520F544C851988096DEFB7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +203,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EAF5929298A74005F3318 /* Sono-Light.ttf in Resources */,
+				690EAF5729298A74005F3318 /* Sono-SemiBold.ttf in Resources */,
+				690EAF5629298A74005F3318 /* Sono-ExtraLight.ttf in Resources */,
+				690EAF5529298A74005F3318 /* Sono-Regular.ttf in Resources */,
 				69FB85742928ACF300A9F2FF /* LaunchScreen.storyboard in Resources */,
+				690EAF5429298A74005F3318 /* Sono-ExtraBold.ttf in Resources */,
 				69FB85712928ACF300A9F2FF /* Assets.xcassets in Resources */,
+				690EAF5829298A74005F3318 /* Sono-Medium.ttf in Resources */,
+				690EAF6229299D74005F3318 /* GoogleService-Info.plist in Resources */,
+				690EAF5329298A74005F3318 /* Sono-Bold.ttf in Resources */,
 				69FB856F2928ACEF00A9F2FF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9FCA11B7A4191D77A19C98B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Basic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7520F544C851988096DEFB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Basic/Pods-Basic-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Basic/Pods-Basic-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Basic/Pods-Basic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		69FB85602928ACEE00A9F2FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				690EAF6029299577005F3318 /* ViewExtension.swift in Sources */,
 				69FB856C2928ACEF00A9F2FF /* ViewController.swift in Sources */,
+				690EAF5C29298C36005F3318 /* AppColors.swift in Sources */,
 				69FB85682928ACEF00A9F2FF /* AppDelegate.swift in Sources */,
 				69FB856A2928ACEF00A9F2FF /* SceneDelegate.swift in Sources */,
+				690EAF5E29298F98005F3318 /* AppCustomLabel.swift in Sources */,
+				690EAF64292A125D005F3318 /* HomeScreenViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +348,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +402,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -282,6 +414,7 @@
 		};
 		69FB85792928ACF300A9F2FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 574350963843AD3E25AF524F /* Pods-Basic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +443,7 @@
 		};
 		69FB857A2928ACF300A9F2FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8607DB810F73682FDE7FE9 /* Pods-Basic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

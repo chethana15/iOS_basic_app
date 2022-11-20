@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,6 +18,24 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         //MARK: - here make sure to direct ur app to particular screen
+        //check if user is already signed in. If yes direct to home screen else to sign in screen
+        let userdefaults = UserDefaults.standard
+        let islogin = userdefaults.bool(forKey: "logIn")
+        if (islogin) {
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let navigationController = UINavigationController()
+            let rootViewController = storyBoard.instantiateViewController(withIdentifier: "HomeScreenViewController") as! HomeScreenViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }else{
+            let storyBoard = UIStoryboard(name: "Main", bundle: nil)
+            
+            let navigationController = UINavigationController()
+            let rootViewController = storyBoard.instantiateViewController(withIdentifier: "ViewController") as! ViewController
+            navigationController.viewControllers = [rootViewController]
+            self.window?.rootViewController = navigationController
+        }
         print("willConnectTo")
         guard let _ = (scene as? UIWindowScene) else { return }
     }
@@ -26,6 +45,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // This occurs shortly after the scene enters the background, or when its session is discarded.
         // Release any resources associated with this scene that can be re-created the next time the scene connects.
         // The scene may re-connect later, as its session was not necessarily discarded (see `application:didDiscardSceneSessions` instead).
+        
         print("sceneDidDisconnect")
     }
 
