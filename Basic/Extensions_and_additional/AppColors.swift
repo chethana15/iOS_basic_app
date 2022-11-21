@@ -10,6 +10,7 @@ import UIKit
 
 enum AppColors{
     case labelGreen
+    case appRadiumColor
 }
 
 extension UIColor{
@@ -18,6 +19,10 @@ extension UIColor{
         switch colorName{
         case .labelGreen:
             return UIColor(named: "appGreen")
+            
+            
+        case .appRadiumColor:
+            return UIColor(named: "appRadiumColor")
         }
     }
     

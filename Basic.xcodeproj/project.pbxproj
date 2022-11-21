@@ -20,6 +20,26 @@
 		690EAF6029299577005F3318 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF5F29299577005F3318 /* ViewExtension.swift */; };
 		690EAF6229299D74005F3318 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 690EAF6129299D74005F3318 /* GoogleService-Info.plist */; };
 		690EAF64292A125D005F3318 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690EAF63292A125D005F3318 /* HomeScreenViewController.swift */; };
+		692276F4292A5C5C00C75D4E /* Views.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692276F3292A5C5C00C75D4E /* Views.storyboard */; };
+		692276F6292A5C8E00C75D4E /* LabelUsingStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692276F5292A5C8E00C75D4E /* LabelUsingStoryBoardVC.swift */; };
+		692276FA292A651B00C75D4E /* LbelProgramiticallyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692276F9292A651B00C75D4E /* LbelProgramiticallyViewController.swift */; };
+		692276FD292A70B800C75D4E /* TableViewConcepts.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 692276FC292A70B800C75D4E /* TableViewConcepts.storyboard */; };
+		692276FF292A70E900C75D4E /* HardCodedArrayVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 692276FE292A70E900C75D4E /* HardCodedArrayVC.swift */; };
+		694F6109292A90A700FD2830 /* ButtonProgramaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6108292A90A700FD2830 /* ButtonProgramaticallyVC.swift */; };
+		694F610B292A94A300FD2830 /* TextFieldUsingStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F610A292A94A300FD2830 /* TextFieldUsingStoryBoardVC.swift */; };
+		694F610D292A966900FD2830 /* TextViewUsingStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F610C292A966900FD2830 /* TextViewUsingStoryBoardVC.swift */; };
+		694F610F292A974200FD2830 /* SwitchUsingStoryboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F610E292A974200FD2830 /* SwitchUsingStoryboardVC.swift */; };
+		694F6111292A97BD00FD2830 /* SliderUsingStoryboardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6110292A97BD00FD2830 /* SliderUsingStoryboardVC.swift */; };
+		694F6113292A98F300FD2830 /* ActivityIndicatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6112292A98F300FD2830 /* ActivityIndicatorVC.swift */; };
+		694F6115292A99A500FD2830 /* TextFieldProgramaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6114292A99A500FD2830 /* TextFieldProgramaticallyVC.swift */; };
+		694F6117292A99DA00FD2830 /* TextViewProgramaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6116292A99DA00FD2830 /* TextViewProgramaticallyVC.swift */; };
+		694F6119292A9A2000FD2830 /* SwitchProgramaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F6118292A9A2000FD2830 /* SwitchProgramaticallyVC.swift */; };
+		694F611B292A9A8F00FD2830 /* ActivityIndicatorProgrammaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F611A292A9A8F00FD2830 /* ActivityIndicatorProgrammaticallyVC.swift */; };
+		694F611D292A9F4F00FD2830 /* SliderProgrammaticallyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 694F611C292A9F4F00FD2830 /* SliderProgrammaticallyVC.swift */; };
+		697A52DD292A76F500990DD3 /* VCExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A52DC292A76F500990DD3 /* VCExtension.swift */; };
+		697A52DF292A790500990DD3 /* InsertOrDeleteNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A52DE292A790500990DD3 /* InsertOrDeleteNameViewController.swift */; };
+		697A52E1292A7B0900990DD3 /* HeaderTitleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A52E0292A7B0800990DD3 /* HeaderTitleViewController.swift */; };
+		697A52E3292A88E200990DD3 /* ButtonUsingStoryBoardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 697A52E2292A88E200990DD3 /* ButtonUsingStoryBoardVC.swift */; };
 		69FB85682928ACEF00A9F2FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB85672928ACEF00A9F2FF /* AppDelegate.swift */; };
 		69FB856A2928ACEF00A9F2FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */; };
 		69FB856C2928ACEF00A9F2FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69FB856B2928ACEF00A9F2FF /* ViewController.swift */; };
@@ -42,6 +62,26 @@
 		690EAF5F29299577005F3318 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		690EAF6129299D74005F3318 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		690EAF63292A125D005F3318 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		692276F3292A5C5C00C75D4E /* Views.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Views.storyboard; sourceTree = "<group>"; };
+		692276F5292A5C8E00C75D4E /* LabelUsingStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelUsingStoryBoardVC.swift; sourceTree = "<group>"; };
+		692276F9292A651B00C75D4E /* LbelProgramiticallyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LbelProgramiticallyViewController.swift; sourceTree = "<group>"; };
+		692276FC292A70B800C75D4E /* TableViewConcepts.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewConcepts.storyboard; sourceTree = "<group>"; };
+		692276FE292A70E900C75D4E /* HardCodedArrayVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HardCodedArrayVC.swift; sourceTree = "<group>"; };
+		694F6108292A90A700FD2830 /* ButtonProgramaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonProgramaticallyVC.swift; sourceTree = "<group>"; };
+		694F610A292A94A300FD2830 /* TextFieldUsingStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldUsingStoryBoardVC.swift; sourceTree = "<group>"; };
+		694F610C292A966900FD2830 /* TextViewUsingStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewUsingStoryBoardVC.swift; sourceTree = "<group>"; };
+		694F610E292A974200FD2830 /* SwitchUsingStoryboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchUsingStoryboardVC.swift; sourceTree = "<group>"; };
+		694F6110292A97BD00FD2830 /* SliderUsingStoryboardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderUsingStoryboardVC.swift; sourceTree = "<group>"; };
+		694F6112292A98F300FD2830 /* ActivityIndicatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorVC.swift; sourceTree = "<group>"; };
+		694F6114292A99A500FD2830 /* TextFieldProgramaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldProgramaticallyVC.swift; sourceTree = "<group>"; };
+		694F6116292A99DA00FD2830 /* TextViewProgramaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewProgramaticallyVC.swift; sourceTree = "<group>"; };
+		694F6118292A9A2000FD2830 /* SwitchProgramaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitchProgramaticallyVC.swift; sourceTree = "<group>"; };
+		694F611A292A9A8F00FD2830 /* ActivityIndicatorProgrammaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorProgrammaticallyVC.swift; sourceTree = "<group>"; };
+		694F611C292A9F4F00FD2830 /* SliderProgrammaticallyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderProgrammaticallyVC.swift; sourceTree = "<group>"; };
+		697A52DC292A76F500990DD3 /* VCExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VCExtension.swift; sourceTree = "<group>"; };
+		697A52DE292A790500990DD3 /* InsertOrDeleteNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertOrDeleteNameViewController.swift; sourceTree = "<group>"; };
+		697A52E0292A7B0800990DD3 /* HeaderTitleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderTitleViewController.swift; sourceTree = "<group>"; };
+		697A52E2292A88E200990DD3 /* ButtonUsingStoryBoardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonUsingStoryBoardVC.swift; sourceTree = "<group>"; };
 		69FB85642928ACEF00A9F2FF /* Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		69FB85672928ACEF00A9F2FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -86,8 +126,42 @@
 				690EAF5B29298C36005F3318 /* AppColors.swift */,
 				690EAF5D29298F98005F3318 /* AppCustomLabel.swift */,
 				690EAF5F29299577005F3318 /* ViewExtension.swift */,
+				697A52DC292A76F500990DD3 /* VCExtension.swift */,
 			);
 			path = Extensions_and_additional;
+			sourceTree = "<group>";
+		};
+		692276F2292A57D300C75D4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				692276F5292A5C8E00C75D4E /* LabelUsingStoryBoardVC.swift */,
+				692276F9292A651B00C75D4E /* LbelProgramiticallyViewController.swift */,
+				697A52E2292A88E200990DD3 /* ButtonUsingStoryBoardVC.swift */,
+				694F6108292A90A700FD2830 /* ButtonProgramaticallyVC.swift */,
+				694F610A292A94A300FD2830 /* TextFieldUsingStoryBoardVC.swift */,
+				694F6114292A99A500FD2830 /* TextFieldProgramaticallyVC.swift */,
+				694F610C292A966900FD2830 /* TextViewUsingStoryBoardVC.swift */,
+				694F6116292A99DA00FD2830 /* TextViewProgramaticallyVC.swift */,
+				694F610E292A974200FD2830 /* SwitchUsingStoryboardVC.swift */,
+				694F6118292A9A2000FD2830 /* SwitchProgramaticallyVC.swift */,
+				694F6110292A97BD00FD2830 /* SliderUsingStoryboardVC.swift */,
+				694F611C292A9F4F00FD2830 /* SliderProgrammaticallyVC.swift */,
+				694F6112292A98F300FD2830 /* ActivityIndicatorVC.swift */,
+				694F611A292A9A8F00FD2830 /* ActivityIndicatorProgrammaticallyVC.swift */,
+				692276F3292A5C5C00C75D4E /* Views.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		692276FB292A709E00C75D4E /* TableViewConcepts */ = {
+			isa = PBXGroup;
+			children = (
+				692276FC292A70B800C75D4E /* TableViewConcepts.storyboard */,
+				692276FE292A70E900C75D4E /* HardCodedArrayVC.swift */,
+				697A52E0292A7B0800990DD3 /* HeaderTitleViewController.swift */,
+				697A52DE292A790500990DD3 /* InsertOrDeleteNameViewController.swift */,
+			);
+			path = TableViewConcepts;
 			sourceTree = "<group>";
 		};
 		69FB855B2928ACEE00A9F2FF = {
@@ -115,6 +189,8 @@
 				69FB85692928ACEF00A9F2FF /* SceneDelegate.swift */,
 				69FB856B2928ACEF00A9F2FF /* ViewController.swift */,
 				690EAF63292A125D005F3318 /* HomeScreenViewController.swift */,
+				692276F2292A57D300C75D4E /* Views */,
+				692276FB292A709E00C75D4E /* TableViewConcepts */,
 				69FB856D2928ACEF00A9F2FF /* Main.storyboard */,
 				69FB85702928ACF300A9F2FF /* Assets.xcassets */,
 				69FB85722928ACF300A9F2FF /* LaunchScreen.storyboard */,
@@ -206,12 +282,14 @@
 				690EAF5929298A74005F3318 /* Sono-Light.ttf in Resources */,
 				690EAF5729298A74005F3318 /* Sono-SemiBold.ttf in Resources */,
 				690EAF5629298A74005F3318 /* Sono-ExtraLight.ttf in Resources */,
+				692276FD292A70B800C75D4E /* TableViewConcepts.storyboard in Resources */,
 				690EAF5529298A74005F3318 /* Sono-Regular.ttf in Resources */,
 				69FB85742928ACF300A9F2FF /* LaunchScreen.storyboard in Resources */,
 				690EAF5429298A74005F3318 /* Sono-ExtraBold.ttf in Resources */,
 				69FB85712928ACF300A9F2FF /* Assets.xcassets in Resources */,
 				690EAF5829298A74005F3318 /* Sono-Medium.ttf in Resources */,
 				690EAF6229299D74005F3318 /* GoogleService-Info.plist in Resources */,
+				692276F4292A5C5C00C75D4E /* Views.storyboard in Resources */,
 				690EAF5329298A74005F3318 /* Sono-Bold.ttf in Resources */,
 				69FB856F2928ACEF00A9F2FF /* Main.storyboard in Resources */,
 			);
@@ -266,13 +344,31 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				694F611D292A9F4F00FD2830 /* SliderProgrammaticallyVC.swift in Sources */,
 				690EAF6029299577005F3318 /* ViewExtension.swift in Sources */,
+				694F6111292A97BD00FD2830 /* SliderUsingStoryboardVC.swift in Sources */,
 				69FB856C2928ACEF00A9F2FF /* ViewController.swift in Sources */,
+				697A52E1292A7B0900990DD3 /* HeaderTitleViewController.swift in Sources */,
+				697A52DF292A790500990DD3 /* InsertOrDeleteNameViewController.swift in Sources */,
+				694F610F292A974200FD2830 /* SwitchUsingStoryboardVC.swift in Sources */,
+				694F610D292A966900FD2830 /* TextViewUsingStoryBoardVC.swift in Sources */,
+				694F6109292A90A700FD2830 /* ButtonProgramaticallyVC.swift in Sources */,
+				697A52DD292A76F500990DD3 /* VCExtension.swift in Sources */,
 				690EAF5C29298C36005F3318 /* AppColors.swift in Sources */,
+				692276FF292A70E900C75D4E /* HardCodedArrayVC.swift in Sources */,
+				694F6113292A98F300FD2830 /* ActivityIndicatorVC.swift in Sources */,
+				694F610B292A94A300FD2830 /* TextFieldUsingStoryBoardVC.swift in Sources */,
 				69FB85682928ACEF00A9F2FF /* AppDelegate.swift in Sources */,
 				69FB856A2928ACEF00A9F2FF /* SceneDelegate.swift in Sources */,
 				690EAF5E29298F98005F3318 /* AppCustomLabel.swift in Sources */,
+				694F6119292A9A2000FD2830 /* SwitchProgramaticallyVC.swift in Sources */,
+				697A52E3292A88E200990DD3 /* ButtonUsingStoryBoardVC.swift in Sources */,
 				690EAF64292A125D005F3318 /* HomeScreenViewController.swift in Sources */,
+				694F6117292A99DA00FD2830 /* TextViewProgramaticallyVC.swift in Sources */,
+				694F6115292A99A500FD2830 /* TextFieldProgramaticallyVC.swift in Sources */,
+				692276F6292A5C8E00C75D4E /* LabelUsingStoryBoardVC.swift in Sources */,
+				692276FA292A651B00C75D4E /* LbelProgramiticallyViewController.swift in Sources */,
+				694F611B292A9A8F00FD2830 /* ActivityIndicatorProgrammaticallyVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
